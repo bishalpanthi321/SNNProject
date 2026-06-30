@@ -1,0 +1,20 @@
+[
+  {"ds":"cifar10","T":4,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":62.88,"L2":2.43,"L3":0.0,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":100.0},
+  {"ds":"cifar10","T":8,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":59.62,"L2":3.44,"L3":0.05,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":100.0},
+  {"ds":"fashion","T":4,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":67.61,"L2":9.86,"L3":0.07,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":96.67},
+  {"ds":"fashion","T":8,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":59.27,"L2":8.27,"L3":0.93,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":96.67},
+  {"ds":"mnist","T":4,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":71.2,"L2":21.36,"L3":5.29,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":96.67},
+  {"ds":"mnist","T":8,"eps":0.1,"total_viol":0,
+   "certified_safe_by_layer_pct":{"L1":63.28,"L2":11.35,"L3":2.01,"L4":0.0},
+   "output_certified_robust_pct":0.0,"output_actual_robust_pct":100.0}
+]

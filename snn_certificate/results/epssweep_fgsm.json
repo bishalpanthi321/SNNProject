@@ -1,0 +1,18 @@
+{
+  "experiment": "single-layer LFP certificate, eps-sweep, FGSM adversarial perturbation",
+  "config": {"beta": 0.9, "T": 20, "n_hidden": 128, "n_samples": 50, "reset": "subtraction"},
+  "total_violations": 0,
+  "note": "certified-safe identical to Gaussian (attack-agnostic); flip-rate 3-4x higher; viol=0 all 18 points",
+  "certified_safe_pct": {
+    "eps":     [0.1,  0.25, 0.5,  1.0,  2.0,  4.0],
+    "MNIST":   [90.4, 86.7, 81.0, 68.5, 48.7, 31.6],
+    "Fashion": [86.5, 82.2, 74.3, 60.2, 37.1, 14.3],
+    "CIFAR-10":[92.5, 88.7, 83.0, 71.5, 51.1, 22.4]
+  },
+  "flip_rate_pct": {
+    "eps":     [0.1, 0.25, 0.5, 1.0, 2.0,  4.0],
+    "MNIST":   [2.7, 3.1,  3.5, 4.6, 6.9,  11.9],
+    "Fashion": [3.8, 4.3,  4.9, 6.4, 9.5,  15.5],
+    "CIFAR-10":[2.1, 2.2,  2.6, 3.4, 5.1,  8.8]
+  }
+}

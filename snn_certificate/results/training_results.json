@@ -1,0 +1,8 @@
+[
+  {"ds": "mnist",   "T": 4, "test_acc": 0.9832, "ckpt": "ckpt_mnist_T4.pt"},
+  {"ds": "mnist",   "T": 8, "test_acc": 0.9881, "ckpt": "ckpt_mnist_T8.pt"},
+  {"ds": "fashion", "T": 4, "test_acc": 0.8992, "ckpt": "ckpt_fashion_T4.pt"},
+  {"ds": "fashion", "T": 8, "test_acc": 0.9195, "ckpt": "ckpt_fashion_T8.pt"},
+  {"ds": "cifar10", "T": 4, "test_acc": 0.7072, "ckpt": "ckpt_cifar10_T4.pt"},
+  {"ds": "cifar10", "T": 8, "test_acc": 0.6998, "ckpt": "ckpt_cifar10_T8.pt"}
+]

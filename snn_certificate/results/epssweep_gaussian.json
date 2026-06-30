@@ -1,0 +1,18 @@
+{
+  "experiment": "single-layer LFP certificate, eps-sweep, Gaussian perturbation",
+  "config": {"beta": 0.9, "T": 20, "n_hidden": 128, "n_samples": 50, "reset": "subtraction"},
+  "total_violations": 0,
+  "note": "viol=0 at every (dataset,eps) point; certified-safe fraction degrades smoothly",
+  "certified_safe_pct": {
+    "eps":     [0.1,  0.25, 0.5,  1.0,  2.0,  4.0],
+    "MNIST":   [90.4, 86.7, 81.0, 68.5, 48.7, 31.6],
+    "Fashion": [86.5, 82.2, 74.3, 60.2, 37.1, 14.3],
+    "CIFAR-10":[92.5, 88.7, 83.0, 71.5, 51.1, 22.4]
+  },
+  "flip_rate_pct": {
+    "eps":     [0.1, 0.25, 0.5, 1.0, 2.0, 4.0],
+    "MNIST":   [0.5, 1.1,  1.7, 2.3, 2.7, 3.1],
+    "Fashion": [0.8, 1.8,  2.9, 3.6, 4.1, 4.5],
+    "CIFAR-10":[0.3, 0.7,  1.2, 1.7, 1.9, 2.1]
+  }
+}
